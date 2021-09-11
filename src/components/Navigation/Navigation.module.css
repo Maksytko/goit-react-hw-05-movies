@@ -1,0 +1,28 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.item {
+  font-size: 24px;
+}
+
+.item:first-child {
+  margin-right: 30px;
+}

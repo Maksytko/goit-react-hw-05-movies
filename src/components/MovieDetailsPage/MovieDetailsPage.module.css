@@ -1,0 +1,12 @@
+ul {
+  padding: 0px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.link:first-child {
+  margin-right: 10px;
+}
