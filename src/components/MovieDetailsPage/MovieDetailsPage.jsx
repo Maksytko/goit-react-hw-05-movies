@@ -65,10 +65,22 @@ function MovieDetailsPage() {
           </ul>
           <h2>Additional information</h2>
           <ul>
-            <Link to={`${url}/reviews`} className={style.link}>
+            <Link
+              to={{
+                pathname: `${url}/reviews`,
+                state: { from: location.state.from },
+              }}
+              className={style.link}
+            >
               Reviews
             </Link>
-            <Link to={`${url}/cast`} className={style.link}>
+            <Link
+              to={{
+                pathname: `${url}/cast`,
+                state: { from: location.state.from },
+              }}
+              className={style.link}
+            >
               Cast
             </Link>
           </ul>
